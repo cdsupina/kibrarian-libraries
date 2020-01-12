@@ -1,25 +1,25 @@
 (
-    official: {
+    lib_map: {
         "digikey-kicad-library": Library(
             name: "digikey-kicad-library",
+            id: 0,
             url: "https://github.com/Digi-Key/digikey-kicad-library.git",
-            symbols_path: "digikey-symbols/",
-            footprints_path: "./",
-            installation: None,
+            symbols_path: "digikey-symbols",
+            footprints_path: ".",
         ),
         "SparkFun-Kicad-Libraries": Library(
             name: "SparkFun-Kicad-Libraries",
+            id: 1,
             url: "https://github.com/benwis/SparkFun-Kicad-Libraries.git",
-            symbols_path: "./",
-            footprints_path: "./",
-            installation: None,
+            symbols_path: ".",
+            footprints_path: ".",
         ),
         "kicad-lib-input": Library(
             name: "kicad-lib-input",
+            id: 2,
             url: "https://github.com/iwax2/kicad-lib-input.git",
-            symbols_path: "./",
-            footprints_path: "./",
-            installation: None,
+            symbols_path: ".",
+            footprints_path: ".",
         )
     }
 )
